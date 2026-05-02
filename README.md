@@ -1,16 +1,70 @@
-# React + Vite
+# 🚀 Agency.AI Website  
+A modern AI-powered digital agency website built using ReactJS and Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a sleek, responsive, and modern **AI agency landing page** designed to showcase services, portfolio, and contact features.  
+It focuses on **clean UI, smooth animations, and reusable components** for scalability and performance.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🎨 Modern UI/UX design
+- 📱 Fully responsive (Mobile, Tablet, Desktop)
+- ⚡ Fast performance using Vite
+- 🧩 Reusable React components
+- 🎬 Smooth animations (Framer Motion)
+- 📩 Contact form integration
+- 🌙 Clean and minimal design system
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** ReactJS  
+- **Styling:** Tailwind CSS  
+- **Animations:** Framer Motion  
+- **Build Tool:** Vite  
+
+> Tailwind CSS is a utility-first CSS framework that allows rapid UI development using predefined classes. :contentReference[oaicite:0]{index=0}  
+
+---
+
+## 📂 Project Structure
+agency-ai-website/
+│
+├── public/ # Static assets
+├── src/
+│ ├── assets/ # Images & icons
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page-level components
+│ ├── App.jsx # Main App component
+│ ├── main.jsx # Entry point
+│ └── index.css # Global styles
+│
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/SoumikSarkar24/agency.ai-website-using-ReactJS-and-Tailwind-CSS.git
+cd agency.ai-website-using-ReactJS-and-Tailwind-CSS
+2️⃣ Install dependencies
+npm install
+3️⃣ Run the development server
+npm run dev
+4️⃣ Build for production
+npm run build
+
+🚀 Live Demo
+
+🔗 Add your deployed link here (e.g., Vercel / Netlify)
